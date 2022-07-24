@@ -137,6 +137,8 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lib/microphone/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lib/microsd/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/tools/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -207,16 +209,14 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "pico-sdk/src/rp2040/hardware_regs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/rp2040/hardware_structs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "lib/microphone/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "lib/microsd/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/main.dir/DependInfo.cmake"
+  "lib/microphone/CMakeFiles/microphone.dir/DependInfo.cmake"
+  "lib/microsd/CMakeFiles/microsd.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/DependInfo.cmake"
-  "lib/microphone/CMakeFiles/microphone.dir/DependInfo.cmake"
-  "lib/microsd/CMakeFiles/microsd.dir/DependInfo.cmake"
   )

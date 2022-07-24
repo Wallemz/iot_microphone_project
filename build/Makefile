@@ -124,6 +124,32 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
+# Target rules for targets named microphone
+
+# Build rule for target.
+microphone: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 microphone
+.PHONY : microphone
+
+# fast build rule for target.
+microphone/fast:
+	$(MAKE) -f lib/microphone/CMakeFiles/microphone.dir/build.make lib/microphone/CMakeFiles/microphone.dir/build
+.PHONY : microphone/fast
+
+#=============================================================================
+# Target rules for targets named microsd
+
+# Build rule for target.
+microsd: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 microsd
+.PHONY : microsd
+
+# fast build rule for target.
+microsd/fast:
+	$(MAKE) -f lib/microsd/CMakeFiles/microsd.dir/build.make lib/microsd/CMakeFiles/microsd.dir/build
+.PHONY : microsd/fast
+
+#=============================================================================
 # Target rules for targets named bs2_default_padded_checksummed_asm
 
 # Build rule for target.
@@ -161,32 +187,6 @@ bs2_default: cmake_check_build_system
 bs2_default/fast:
 	$(MAKE) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build
 .PHONY : bs2_default/fast
-
-#=============================================================================
-# Target rules for targets named microphone
-
-# Build rule for target.
-microphone: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 microphone
-.PHONY : microphone
-
-# fast build rule for target.
-microphone/fast:
-	$(MAKE) -f lib/microphone/CMakeFiles/microphone.dir/build.make lib/microphone/CMakeFiles/microphone.dir/build
-.PHONY : microphone/fast
-
-#=============================================================================
-# Target rules for targets named microsd
-
-# Build rule for target.
-microsd: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 microsd
-.PHONY : microsd
-
-# fast build rule for target.
-microsd/fast:
-	$(MAKE) -f lib/microsd/CMakeFiles/microsd.dir/build.make lib/microsd/CMakeFiles/microsd.dir/build
-.PHONY : microsd/fast
 
 home/william.porras/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: home/william.porras/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 
@@ -2024,11 +2024,11 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main"
+	@echo "... microphone"
+	@echo "... microsd"
 	@echo "... bs2_default_padded_checksummed_asm"
 	@echo "... bs2_default_bin"
 	@echo "... bs2_default"
-	@echo "... microphone"
-	@echo "... microsd"
 	@echo "... home/william.porras/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
 	@echo "... home/william.porras/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... home/william.porras/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"

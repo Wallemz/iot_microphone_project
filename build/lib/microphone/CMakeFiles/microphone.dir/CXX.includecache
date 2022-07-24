@@ -6,35 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microphone/DEV_Config.h
+../lib/microphone/DEV_Config.h
 pico/stdlib.h
-/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microphone/pico/stdlib.h
+../lib/microphone/pico/stdlib.h
 hardware/spi.h
-/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microphone/hardware/spi.h
+../lib/microphone/hardware/spi.h
 stdio.h
-/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microphone/stdio.h
+../lib/microphone/stdio.h
 hardware/i2c.h
-/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microphone/hardware/i2c.h
+../lib/microphone/hardware/i2c.h
 hardware/pwm.h
-/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microphone/hardware/pwm.h
+../lib/microphone/hardware/pwm.h
 hardware/adc.h
-/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microphone/hardware/adc.h
+../lib/microphone/hardware/adc.h
 
-/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microphone/Debug.h
+../lib/microphone/Debug.h
 stdio.h
 -
+
+../lib/microphone/include/microphone.hpp
+../DEV_Config.h
+../lib/microphone/DEV_Config.h
+../Debug.h
+../lib/microphone/Debug.h
+pico/stdlib.h
+../lib/microphone/include/pico/stdlib.h
 
 /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microphone/microphone.cpp
 microphone.hpp
 /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microphone/microphone.hpp
-
-/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microphone/microphone.hpp
-DEV_Config.h
-/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microphone/DEV_Config.h
-Debug.h
-/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microphone/Debug.h
-pico/stdlib.h
-/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microphone/pico/stdlib.h
 
 /home/william.porras/pico/pico-sdk/src/boards/include/boards/pico.h
 

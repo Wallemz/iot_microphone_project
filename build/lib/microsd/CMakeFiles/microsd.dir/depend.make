@@ -1377,10 +1377,10 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/microsd.cpp.obj: ../lib/microsd/ff.h
 lib/microsd/CMakeFiles/microsd.dir/microsd.cpp.obj: ../lib/microsd/ffconf.h
-lib/microsd/CMakeFiles/microsd.dir/microsd.cpp.obj: ../lib/microsd/microsd.cpp
-lib/microsd/CMakeFiles/microsd.dir/microsd.cpp.obj: ../lib/microsd/microsd.hpp
+lib/microsd/CMakeFiles/microsd.dir/microsd.cpp.obj: ../lib/microsd/include/microsd.hpp
 lib/microsd/CMakeFiles/microsd.dir/microsd.cpp.obj: ../lib/microsd/sd_card.h
 lib/microsd/CMakeFiles/microsd.dir/microsd.cpp.obj: ../lib/microsd/spi.h
+lib/microsd/CMakeFiles/microsd.dir/microsd.cpp.obj: ../lib/microsd/microsd.cpp
 lib/microsd/CMakeFiles/microsd.dir/microsd.cpp.obj: /home/william.porras/pico/pico-sdk/src/boards/include/boards/pico.h
 lib/microsd/CMakeFiles/microsd.dir/microsd.cpp.obj: /home/william.porras/pico/pico-sdk/src/common/pico_base/include/pico.h
 lib/microsd/CMakeFiles/microsd.dir/microsd.cpp.obj: /home/william.porras/pico/pico-sdk/src/common/pico_base/include/pico/assert.h

@@ -2266,10 +2266,10 @@ CMakeFiles/main.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_standa
 CMakeFiles/main.dir/main.cpp.obj
  ../lib/microphone/DEV_Config.h
  ../lib/microphone/Debug.h
- ../lib/microphone/microphone.hpp
+ ../lib/microphone/include/microphone.hpp
  ../lib/microsd/ff.h
  ../lib/microsd/ffconf.h
- ../lib/microsd/microsd.hpp
+ ../lib/microsd/include/microsd.hpp
  ../lib/microsd/sd_card.h
  ../lib/microsd/spi.h
  /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/main.cpp

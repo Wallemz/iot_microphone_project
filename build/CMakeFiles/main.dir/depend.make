@@ -2265,10 +2265,10 @@ CMakeFiles/main.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_standa
 
 CMakeFiles/main.dir/main.cpp.obj: ../lib/microphone/DEV_Config.h
 CMakeFiles/main.dir/main.cpp.obj: ../lib/microphone/Debug.h
-CMakeFiles/main.dir/main.cpp.obj: ../lib/microphone/microphone.hpp
+CMakeFiles/main.dir/main.cpp.obj: ../lib/microphone/include/microphone.hpp
 CMakeFiles/main.dir/main.cpp.obj: ../lib/microsd/ff.h
 CMakeFiles/main.dir/main.cpp.obj: ../lib/microsd/ffconf.h
-CMakeFiles/main.dir/main.cpp.obj: ../lib/microsd/microsd.hpp
+CMakeFiles/main.dir/main.cpp.obj: ../lib/microsd/include/microsd.hpp
 CMakeFiles/main.dir/main.cpp.obj: ../lib/microsd/sd_card.h
 CMakeFiles/main.dir/main.cpp.obj: ../lib/microsd/spi.h
 CMakeFiles/main.dir/main.cpp.obj: ../main.cpp

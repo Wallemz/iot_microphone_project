@@ -1376,12 +1376,12 @@ lib/microsd/CMakeFiles/microsd.dir/spi.c.obj
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
  /home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 lib/microsd/CMakeFiles/microsd.dir/microsd.cpp.obj
- /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microsd/ff.h
- /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microsd/ffconf.h
+ ../lib/microsd/ff.h
+ ../lib/microsd/ffconf.h
+ ../lib/microsd/include/microsd.hpp
+ ../lib/microsd/sd_card.h
+ ../lib/microsd/spi.h
  /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microsd/microsd.cpp
- /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microsd/microsd.hpp
- /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microsd/sd_card.h
- /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microsd/spi.h
  /home/william.porras/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/william.porras/pico/pico-sdk/src/common/pico_base/include/pico.h
  /home/william.porras/pico/pico-sdk/src/common/pico_base/include/pico/assert.h

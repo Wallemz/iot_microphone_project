@@ -1051,10 +1051,10 @@ lib/microphone/CMakeFiles/microphone.dir/home/william.porras/pico/pico-sdk/src/r
 lib/microphone/CMakeFiles/microphone.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
  /home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 lib/microphone/CMakeFiles/microphone.dir/microphone.cpp.obj
- /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microphone/DEV_Config.h
- /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microphone/Debug.h
+ ../lib/microphone/DEV_Config.h
+ ../lib/microphone/Debug.h
+ ../lib/microphone/include/microphone.hpp
  /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microphone/microphone.cpp
- /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microphone/microphone.hpp
  /home/william.porras/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/william.porras/pico/pico-sdk/src/common/pico_base/include/pico.h
  /home/william.porras/pico/pico-sdk/src/common/pico_base/include/pico/assert.h

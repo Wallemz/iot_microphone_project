@@ -1,6 +1,12 @@
 /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles/rebuild_cache.dir
 /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles/edit_cache.dir
 /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles/main.dir
+/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microphone/CMakeFiles/rebuild_cache.dir
+/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microphone/CMakeFiles/edit_cache.dir
+/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microphone/CMakeFiles/microphone.dir
+/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd/CMakeFiles/rebuild_cache.dir
+/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd/CMakeFiles/edit_cache.dir
+/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd/CMakeFiles/microsd.dir
 /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/pico-sdk/CMakeFiles/rebuild_cache.dir
 /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/pico-sdk/CMakeFiles/edit_cache.dir
 /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/pico-sdk/tools/CMakeFiles/rebuild_cache.dir
@@ -144,9 +150,3 @@
 /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/pico-sdk/src/rp2040/hardware_structs/CMakeFiles/edit_cache.dir
 /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
 /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/pico-sdk/docs/CMakeFiles/edit_cache.dir
-/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microphone/CMakeFiles/rebuild_cache.dir
-/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microphone/CMakeFiles/edit_cache.dir
-/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microphone/CMakeFiles/microphone.dir
-/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd/CMakeFiles/rebuild_cache.dir
-/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd/CMakeFiles/edit_cache.dir
-/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd/CMakeFiles/microsd.dir

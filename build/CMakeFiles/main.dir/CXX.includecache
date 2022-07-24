@@ -24,13 +24,13 @@ hardware/adc.h
 stdio.h
 -
 
-../lib/microphone/microphone.hpp
-DEV_Config.h
+../lib/microphone/include/microphone.hpp
+../DEV_Config.h
 ../lib/microphone/DEV_Config.h
-Debug.h
+../Debug.h
 ../lib/microphone/Debug.h
 pico/stdlib.h
-../lib/microphone/pico/stdlib.h
+../lib/microphone/include/pico/stdlib.h
 
 ../lib/microsd/ff.h
 ffconf.h
@@ -42,8 +42,8 @@ stdint.h
 
 ../lib/microsd/ffconf.h
 
-../lib/microsd/microsd.hpp
-sd_card.h
+../lib/microsd/include/microsd.hpp
+../sd_card.h
 ../lib/microsd/sd_card.h
 stdio.h
 -
@@ -86,6 +86,8 @@ microphone.hpp
 microsd.hpp
 /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/microsd.hpp
 string
+-
+iostream
 -
 
 /home/william.porras/pico/pico-sdk/src/boards/include/boards/pico.h

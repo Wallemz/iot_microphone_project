@@ -4,4 +4,5 @@ aux_source_directory(. DIR_Config_SRCS)
 
 # 生成链接库
 add_library(microsd ${DIR_Config_SRCS})
+include_directories(include/)
 target_link_libraries(microsd PUBLIC pico_stdlib hardware_spi hardware_i2c hardware_pwm hardware_adc hardware_dma hardware_rtc)

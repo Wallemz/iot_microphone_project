@@ -1052,8 +1052,8 @@ lib/microphone/CMakeFiles/microphone.dir/home/william.porras/pico/pico-sdk/src/r
 
 lib/microphone/CMakeFiles/microphone.dir/microphone.cpp.obj: ../lib/microphone/DEV_Config.h
 lib/microphone/CMakeFiles/microphone.dir/microphone.cpp.obj: ../lib/microphone/Debug.h
+lib/microphone/CMakeFiles/microphone.dir/microphone.cpp.obj: ../lib/microphone/include/microphone.hpp
 lib/microphone/CMakeFiles/microphone.dir/microphone.cpp.obj: ../lib/microphone/microphone.cpp
-lib/microphone/CMakeFiles/microphone.dir/microphone.cpp.obj: ../lib/microphone/microphone.hpp
 lib/microphone/CMakeFiles/microphone.dir/microphone.cpp.obj: /home/william.porras/pico/pico-sdk/src/boards/include/boards/pico.h
 lib/microphone/CMakeFiles/microphone.dir/microphone.cpp.obj: /home/william.porras/pico/pico-sdk/src/common/pico_base/include/pico.h
 lib/microphone/CMakeFiles/microphone.dir/microphone.cpp.obj: /home/william.porras/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
