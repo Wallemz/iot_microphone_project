@@ -13,7 +13,7 @@ int main() {
     MicroSD sd(file);
 
     mic.init();
-    std::cout << "Mic initialized successfully!!";
+    printf("Mic initialized successfully!!");
     sd.init();
     std::cout << "SD initialized successfully!!";
     sd.createWav();
