@@ -52,8 +52,8 @@ bool MicroSD::createWav(){
 
     
     /// 36 + SubChunk2Size
-    fr = f_write(&fil, (const BYTE*)&chunkSize, sizeof((const BYTE*)&chunkSize), &bw);
-    if (sizeof((const BYTE*)&chunkSize) != bw || fr != FR_OK)
+    fr = f_write(&fil, &chunkSize, sizeof(chunkSize), &bw);
+    if (sizeof(chunkSize) != bw || fr != FR_OK)
         printf("Error in writing !\n");
     bw = 0;
     
@@ -70,44 +70,44 @@ bool MicroSD::createWav(){
     bw = 0;
     
     ///: For PCM == 16, since audioFormat == uint16_t
-    fr = f_write(&fil, (const BYTE*)&subChunk1Size, sizeof((const BYTE*)&subChunk1Size), &bw);
-    if (sizeof((const BYTE*)&subChunk1Size) != bw || fr != FR_OK)
+    fr = f_write(&fil, &subChunk1Size, sizeof(&subChunk1Size), &bw);
+    if (sizeof(subChunk1Size) != bw || fr != FR_OK)
         printf("Error in writing !\n");
     bw = 0;
 
     ///: For PCM this is 1, other values indicate compression
-    fr = f_write(&fil, (const BYTE*)&audioFormat, sizeof((const BYTE*)&audioFormat), &bw);
-    if (sizeof((const BYTE*)&audioFormat) != bw || fr != FR_OK)
+    fr = f_write(&fil,&audioFormat, sizeof(audioFormat), &bw);
+    if (sizeof(audioFormat) != bw || fr != FR_OK)
         printf("Error in writing !\n");
     bw = 0;
 
     ///: Mono = 1, Stereo = 2, etc.
-    fr = f_write(&fil, (const BYTE*)&numChannels, sizeof((const BYTE*)&numChannels), &bw);
-    if (sizeof((const BYTE*)&numChannels) != bw || fr != FR_OK)
+    fr = f_write(&fil, &numChannels, sizeof(numChannels), &bw);
+    if (sizeof(numChannels) != bw || fr != FR_OK)
         printf("Error in writing !\n");
     bw = 0;
 
     ///: Sample Rate of file
-    fr = f_write(&fil, (const BYTE*)&sampleRate, sizeof((const BYTE*)&sampleRate), &bw);
-    if (sizeof((const BYTE*)&sampleRate) != bw || fr != FR_OK)
+    fr = f_write(&fil, &sampleRate, sizeof(sampleRate), &bw);
+    if (sizeof(sampleRate) != bw || fr != FR_OK)
         printf("Error in writing !\n");
     bw = 0;
 
     ///: SampleRate * NumChannels * BitsPerSample/8
-    fr = f_write(&fil, (const BYTE*)&byteRate, sizeof((const BYTE*)&byteRate), &bw);
-    if (sizeof((const BYTE*)&byteRate) != bw || fr != FR_OK)
+    fr = f_write(&fil, &byteRate, sizeof(byteRate), &bw);
+    if (sizeof(byteRate) != bw || fr != FR_OK)
         printf("Error in writing !\n");
     bw = 0;
 
     ///: The number of byte for one frame NumChannels * BitsPerSample/8
-    fr = f_write(&fil, (const BYTE*)&blockAlign, sizeof((const BYTE*)&blockAlign), &bw);
-    if (sizeof((const BYTE*)&blockAlign) != bw || fr != FR_OK)
+    fr = f_write(&fil, &blockAlign, sizeof(blockAlign), &bw);
+    if (sizeof(blockAlign) != bw || fr != FR_OK)
         printf("Error in writing !\n");
     bw = 0;
 
     ///: 8 bits = 8, 16 bits = 16
-    fr = f_write(&fil, (const BYTE*)&bitsPerSample, sizeof((const BYTE*)&bitsPerSample), &bw);
-    if (sizeof((const BYTE*)&bitsPerSample) != bw || fr != FR_OK)
+    fr = f_write(&fil, &bitsPerSample, sizeof(bitsPerSample), &bw);
+    if (sizeof(bitsPerSample) != bw || fr != FR_OK)
         printf("Error in writing !\n");
     bw = 0;
 
@@ -118,8 +118,8 @@ bool MicroSD::createWav(){
     bw = 0;
 
     ///: == NumSamples * NumChannels * BitsPerSample/8  i.e. number of byte in the data.
-    fr = f_write(&fil, (const BYTE*)&subChunk2Size, sizeof((const BYTE*)&subChunk2Size), &bw);
-    if (sizeof((const BYTE*)&subChunk2Size) != bw || fr != FR_OK)
+    fr = f_write(&fil, &subChunk2Size, sizeof(subChunk2Size), &bw);
+    if (sizeof(subChunk2Size) != bw || fr != FR_OK)
         printf("Error in writing !\n");
     bw = 0;
     
@@ -131,7 +131,7 @@ bool MicroSD::createWav(){
 }
 
 
-bool MicroSD::prepare2Read(){
+bool MicroSD::prepare2Write(){
     // String to charr arr
     int length = filename.length();
     char file[length + 1];
@@ -146,31 +146,46 @@ bool MicroSD::prepare2Read(){
     return true;
 }
 
-bool MicroSD::writeWav(uint data){
+bool MicroSD::writeWav(std::array <uint8_t, 20000> data){
+    int dataSize = data.size();
+    for(int i = 0; i < dataSize; i++){
+        //printf("Data: %u\n", data[i]);
+        int16_t minInVal = 0;
+        int16_t maxInVal = 255;
+        int16_t minOutVal = -32767;
+        int16_t maxOutVal = 32767;
+        double factor = ((data[i] - double(minInVal))/(maxInVal-minInVal))*100;
+        int16_t sampleValue = minOutVal + (maxOutVal-minOutVal)*(factor/100);
+        //printf("Convert: %d\n", sampleValue);
+        //int16_t sampleValue = map(data, MIN_DATA_VALUE 0, MAX_DATA_VALUE 1023,C -32767,D 32767);
+        //int16_t sampleValue = (data[i] - 0)*(255-0)/(32767-(-32767)) + 0;
+        //int16_t sampleValue = data[i];
+
+        //todo Revisar valores de los chunks
+        subChunk2Size += numChannels * bitsPerSample/8;
+        //wavFile.seek(40);
+        fr = f_lseek(&fil, 40);
+        //wavFile.write((byte*)&subChunk2Size,4);
+        fr = f_write(&fil, &subChunk2Size, sizeof(subChunk2Size), &bw);
+
+        //wavFile.seek(4);
+        fr = f_lseek(&fil, 4);
+        chunkSize = 36 + subChunk2Size;
+        //wavFile.write((byte*)&chunkSize,4);
+        fr = f_write(&fil, &chunkSize, sizeof(chunkSize), &bw);
+
+        //wavFile.seek(wavFile.size()-1);
+        fr = f_lseek(&fil, f_size(&fil));
+        //wavFile.write((byte*)&sampleValue,2);
+        //fr = f_write(&fil, &sampleValue, sizeof(sampleValue), &bw);
+        //todo revisar cantidad de bits a escribir
+        fr = f_write(&fil, (char *)&data[i], sizeof(char), &bw);
+
+        // CLose file
+        f_sync (&fil);
+        //todo Open y close en cada write
+    }
     
-
-    //int16_t sampleValue = map(data, MIN_DATA_VALUE 0, MAX_DATA_VALUE 1023,C -32767,D 32767);
-    int16_t sampleValue = (data - 0)*(1023-0)/(32767-(-32767)) + 0;
-
-    subChunk2Size += numChannels * bitsPerSample/8;
-    //wavFile.seek(40);
-    fr = f_lseek(&fil, 40);
-    //wavFile.write((byte*)&subChunk2Size,4);
-    fr = f_write(&fil, (const BYTE*)&subChunk2Size, sizeof((const BYTE*)&subChunk2Size), &bw);
-
-    //wavFile.seek(4);
-    fr = f_lseek(&fil, 4);
-    chunkSize = 36 + subChunk2Size;
-    //wavFile.write((byte*)&chunkSize,4);
-    fr = f_write(&fil, (const BYTE*)&chunkSize, sizeof((const BYTE*)&chunkSize), &bw);
-
-    //wavFile.seek(wavFile.size()-1);
-    fr = f_lseek(&fil, f_size(&fil));
-    //wavFile.write((byte*)&sampleValue,2);
-    fr = f_write(&fil, (const BYTE*)&sampleValue, sizeof((const BYTE*)&sampleValue), &bw);
-
-    // CLose file
-    f_sync (&fil);
     return true;
 }
 

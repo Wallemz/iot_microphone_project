@@ -11,11 +11,14 @@ void Microphone::init(){
     DEV_Module_Init();
 }
 
-uint Microphone::read(){
-    adc_raw = adc_read();
-    //printf("%.2f\n", adc_raw * adcConvert);
-    sleep_ms(1);
-    return adc_raw;
+std::array <uint8_t, 20000> Microphone::read(){
+    std::array <uint8_t, 20000> data; 
+    for(int i = 0; i < 20000; i++){ 
+        data[i] = adc_read()>>4;
+        //printf("%.2f\n", data[i] * adcConvert);
+        //sleep_ms(1);
+    }
+    return data;
 }
 
 void Microphone::readLoop(){

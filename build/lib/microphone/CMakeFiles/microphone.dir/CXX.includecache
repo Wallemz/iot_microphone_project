@@ -31,6 +31,8 @@ stdio.h
 ../lib/microphone/Debug.h
 pico/stdlib.h
 ../lib/microphone/include/pico/stdlib.h
+array
+-
 
 /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microphone/microphone.cpp
 microphone.hpp

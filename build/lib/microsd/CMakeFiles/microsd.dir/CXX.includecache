@@ -23,6 +23,8 @@ stdio.h
 -
 string
 -
+array
+-
 
 ../lib/microsd/sd_card.h
 stdint.h

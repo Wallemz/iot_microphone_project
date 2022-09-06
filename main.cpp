@@ -2,11 +2,13 @@
 #include "microsd.hpp"
 #include <string>
 #include <iostream>
+#include <array>
 
 std::string file = "Prueba.wav";
 std::string data = "Prueba rayando microSD";
 
 int main() {
+    int size = 200;
     stdio_init_all();
 
     Microphone mic;
@@ -18,11 +20,13 @@ int main() {
     std::cout << "SD initialized successfully!!";
     sd.createWav();
     std::cout << "WAV Created successfully!!";
-    sd.prepare2Read();
-    for(int i=0; i<200; i++){
-        uint data = mic.read();
-        sd.writeWav(data);
-    }
+
+    std::array <uint8_t, 20000> data;
+    data = mic.read();
+
+    sd.prepare2Write();
+    sd.writeWav(data);
+
     std::cout << "Data recorded successfully!!";
     sd.finishWrite();
     //sd.read();

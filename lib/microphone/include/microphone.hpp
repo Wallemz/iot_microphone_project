@@ -5,6 +5,7 @@ extern "C" {
     #include "../Debug.h"
 }
 #include "pico/stdlib.h"
+#include <array>
 
 class Microphone{
 public:
@@ -16,6 +17,6 @@ public:
     Microphone();
     
     void init();
-    uint read();
+    std::array <uint8_t, 20000> read();
     void readLoop();
 };
