@@ -69,8 +69,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
-  "../lib/microphone/include"
-  "../lib/microsd/include"
+  "../include"
   "/home/william.porras/pico/pico-sdk/src/common/pico_stdlib/include"
   "/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_gpio/include"
   "/home/william.porras/pico/pico-sdk/src/common/pico_base/include"
@@ -238,8 +237,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "../lib/microphone/include"
-  "../lib/microsd/include"
+  "../include"
   "/home/william.porras/pico/pico-sdk/src/common/pico_stdlib/include"
   "/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_gpio/include"
   "/home/william.porras/pico/pico-sdk/src/common/pico_base/include"
@@ -295,6 +293,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles/main.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
   "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/main.cpp" "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles/main.dir/main.cpp.obj"
+  "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/src/microphone.cpp" "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles/main.dir/src/microphone.cpp.obj"
+  "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/src/microsd.cpp" "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles/main.dir/src/microsd.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -347,8 +347,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../lib/microphone/include"
-  "../lib/microsd/include"
+  "../include"
   "/home/william.porras/pico/pico-sdk/src/common/pico_stdlib/include"
   "/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_gpio/include"
   "/home/william.porras/pico/pico-sdk/src/common/pico_base/include"
@@ -404,6 +403,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/src/CMakeFiles/recorder_lib.dir/DependInfo.cmake"
   "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microphone/CMakeFiles/microphone.dir/DependInfo.cmake"
   "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd/CMakeFiles/microsd.dir/DependInfo.cmake"
   )

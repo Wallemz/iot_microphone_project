@@ -59,7 +59,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
   "CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
   "CMakeFiles/microsd.dir/hw_config.c.obj"
-  "CMakeFiles/microsd.dir/microsd.cpp.obj"
   "CMakeFiles/microsd.dir/my_debug.c.obj"
   "CMakeFiles/microsd.dir/rtc.c.obj"
   "CMakeFiles/microsd.dir/sd_card.c.obj"

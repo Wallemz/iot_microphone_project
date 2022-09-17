@@ -1250,33 +1250,6 @@ home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build && $(MAKE) -f lib/microphone/CMakeFiles/microphone.dir/build.make lib/microphone/CMakeFiles/microphone.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
-microphone.obj: microphone.cpp.obj
-
-.PHONY : microphone.obj
-
-# target to build an object file
-microphone.cpp.obj:
-	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build && $(MAKE) -f lib/microphone/CMakeFiles/microphone.dir/build.make lib/microphone/CMakeFiles/microphone.dir/microphone.cpp.obj
-.PHONY : microphone.cpp.obj
-
-microphone.i: microphone.cpp.i
-
-.PHONY : microphone.i
-
-# target to preprocess a source file
-microphone.cpp.i:
-	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build && $(MAKE) -f lib/microphone/CMakeFiles/microphone.dir/build.make lib/microphone/CMakeFiles/microphone.dir/microphone.cpp.i
-.PHONY : microphone.cpp.i
-
-microphone.s: microphone.cpp.s
-
-.PHONY : microphone.s
-
-# target to generate assembly for a file
-microphone.cpp.s:
-	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build && $(MAKE) -f lib/microphone/CMakeFiles/microphone.dir/build.make lib/microphone/CMakeFiles/microphone.dir/microphone.cpp.s
-.PHONY : microphone.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1411,9 +1384,6 @@ help:
 	@echo "... home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
 	@echo "... home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
 	@echo "... home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
-	@echo "... microphone.obj"
-	@echo "... microphone.i"
-	@echo "... microphone.s"
 .PHONY : help
 
 

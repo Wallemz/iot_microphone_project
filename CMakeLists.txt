@@ -8,16 +8,12 @@ if (PICO_SDK_VERSION_STRING VERSION_LESS "1.3.0")
     message(FATAL_ERROR "Raspberry Pi Pico SDK version 1.3.0 (or later) required. Your version is ${PICO_SDK_VERSION_STRING}")
 endif()
 
-
-include_directories(lib/microphone/include)
-include_directories(lib/microsd/include)
-
-add_subdirectory(lib/microphone)
-add_subdirectory(lib/microsd)
-
 # Initialize the SDK
 pico_sdk_init()
 
+include_directories(include/)
+add_subdirectory(lib)
+add_subdirectory(src)
 
 add_executable(main 
     main.cpp
@@ -28,9 +24,10 @@ pico_enable_stdio_usb(main 1)
 pico_enable_stdio_uart(main 1)
 
 target_link_libraries(main PUBLIC
-    microphone 
+    recorder_lib
+    microphone
     microsd
-    pico_stdlib 
+    pico_stdlib
     hardware_adc)
 
 add_compile_options(-Wall

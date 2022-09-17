@@ -187,22 +187,9 @@ lib/microsd/CMakeFiles/microsd.dir/hw_config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/microsd.dir/hw_config.c.s"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microsd/hw_config.c -o CMakeFiles/microsd.dir/hw_config.c.s
 
-lib/microsd/CMakeFiles/microsd.dir/microsd.cpp.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
-lib/microsd/CMakeFiles/microsd.dir/microsd.cpp.obj: ../lib/microsd/microsd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object lib/microsd/CMakeFiles/microsd.dir/microsd.cpp.obj"
-	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/microsd.dir/microsd.cpp.obj -c /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microsd/microsd.cpp
-
-lib/microsd/CMakeFiles/microsd.dir/microsd.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/microsd.dir/microsd.cpp.i"
-	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microsd/microsd.cpp > CMakeFiles/microsd.dir/microsd.cpp.i
-
-lib/microsd/CMakeFiles/microsd.dir/microsd.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/microsd.dir/microsd.cpp.s"
-	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microsd/microsd.cpp -o CMakeFiles/microsd.dir/microsd.cpp.s
-
 lib/microsd/CMakeFiles/microsd.dir/my_debug.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/my_debug.c.obj: ../lib/microsd/my_debug.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object lib/microsd/CMakeFiles/microsd.dir/my_debug.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object lib/microsd/CMakeFiles/microsd.dir/my_debug.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/my_debug.c.obj   -c /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microsd/my_debug.c
 
 lib/microsd/CMakeFiles/microsd.dir/my_debug.c.i: cmake_force
@@ -215,7 +202,7 @@ lib/microsd/CMakeFiles/microsd.dir/my_debug.c.s: cmake_force
 
 lib/microsd/CMakeFiles/microsd.dir/rtc.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/rtc.c.obj: ../lib/microsd/rtc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object lib/microsd/CMakeFiles/microsd.dir/rtc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object lib/microsd/CMakeFiles/microsd.dir/rtc.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/rtc.c.obj   -c /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microsd/rtc.c
 
 lib/microsd/CMakeFiles/microsd.dir/rtc.c.i: cmake_force
@@ -228,7 +215,7 @@ lib/microsd/CMakeFiles/microsd.dir/rtc.c.s: cmake_force
 
 lib/microsd/CMakeFiles/microsd.dir/sd_card.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/sd_card.c.obj: ../lib/microsd/sd_card.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object lib/microsd/CMakeFiles/microsd.dir/sd_card.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object lib/microsd/CMakeFiles/microsd.dir/sd_card.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/sd_card.c.obj   -c /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microsd/sd_card.c
 
 lib/microsd/CMakeFiles/microsd.dir/sd_card.c.i: cmake_force
@@ -241,7 +228,7 @@ lib/microsd/CMakeFiles/microsd.dir/sd_card.c.s: cmake_force
 
 lib/microsd/CMakeFiles/microsd.dir/sd_spi.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/sd_spi.c.obj: ../lib/microsd/sd_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object lib/microsd/CMakeFiles/microsd.dir/sd_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object lib/microsd/CMakeFiles/microsd.dir/sd_spi.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/sd_spi.c.obj   -c /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microsd/sd_spi.c
 
 lib/microsd/CMakeFiles/microsd.dir/sd_spi.c.i: cmake_force
@@ -254,7 +241,7 @@ lib/microsd/CMakeFiles/microsd.dir/sd_spi.c.s: cmake_force
 
 lib/microsd/CMakeFiles/microsd.dir/spi.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/spi.c.obj: ../lib/microsd/spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object lib/microsd/CMakeFiles/microsd.dir/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object lib/microsd/CMakeFiles/microsd.dir/spi.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/spi.c.obj   -c /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microsd/spi.c
 
 lib/microsd/CMakeFiles/microsd.dir/spi.c.i: cmake_force
@@ -267,7 +254,7 @@ lib/microsd/CMakeFiles/microsd.dir/spi.c.s: cmake_force
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -280,7 +267,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -293,7 +280,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
@@ -306,7 +293,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
@@ -319,7 +306,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -332,7 +319,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -345,12 +332,12 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building ASM object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building ASM object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_time/time.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/william.porras/pico/pico-sdk/src/common/pico_time/time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_time/time.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_time/time.c.obj   -c /home/william.porras/pico/pico-sdk/src/common/pico_time/time.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -363,7 +350,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/william.porras/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj   -c /home/william.porras/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -376,7 +363,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -389,7 +376,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_sync/sem.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/william.porras/pico/pico-sdk/src/common/pico_sync/sem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_sync/sem.c.obj   -c /home/william.porras/pico/pico-sdk/src/common/pico_sync/sem.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -402,7 +389,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/william.porras/pico/pico-sdk/src/common/pico_sync/lock_core.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj   -c /home/william.porras/pico/pico-sdk/src/common/pico_sync/lock_core.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -415,7 +402,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/william.porras/pico/pico-sdk/src/common/pico_sync/mutex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_sync/mutex.c.obj   -c /home/william.porras/pico/pico-sdk/src/common/pico_sync/mutex.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -428,7 +415,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/william.porras/pico/pico-sdk/src/common/pico_sync/critical_section.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj   -c /home/william.porras/pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -441,7 +428,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_util/datetime.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/william.porras/pico/pico-sdk/src/common/pico_util/datetime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_util/datetime.c.obj   -c /home/william.porras/pico/pico-sdk/src/common/pico_util/datetime.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -454,7 +441,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_util/pheap.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/william.porras/pico/pico-sdk/src/common/pico_util/pheap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_util/pheap.c.obj   -c /home/william.porras/pico/pico-sdk/src/common/pico_util/pheap.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -467,7 +454,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_util/queue.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/william.porras/pico/pico-sdk/src/common/pico_util/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_util/queue.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_util/queue.c.obj   -c /home/william.porras/pico/pico-sdk/src/common/pico_util/queue.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -480,7 +467,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/common/
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -493,7 +480,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -506,7 +493,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -519,12 +506,12 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -537,7 +524,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -550,7 +537,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -563,7 +550,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -576,7 +563,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -589,12 +576,12 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -607,17 +594,17 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
@@ -630,7 +617,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -643,22 +630,22 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building ASM object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building ASM object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building ASM object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
@@ -671,7 +658,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -684,12 +671,12 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building ASM object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building ASM object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
@@ -702,17 +689,17 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building ASM object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building ASM object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building ASM object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building ASM object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
@@ -725,7 +712,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
@@ -738,7 +725,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -751,7 +738,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
@@ -764,7 +751,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i: cmake_force
@@ -777,7 +764,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
@@ -790,7 +777,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
@@ -803,7 +790,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
@@ -816,7 +803,7 @@ lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_com
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj: lib/microsd/CMakeFiles/microsd.dir/flags.make
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj: /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj   -c /home/william.porras/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c
 
 lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i: cmake_force
@@ -839,7 +826,6 @@ microsd_OBJECTS = \
 "CMakeFiles/microsd.dir/ffunicode.c.obj" \
 "CMakeFiles/microsd.dir/glue.c.obj" \
 "CMakeFiles/microsd.dir/hw_config.c.obj" \
-"CMakeFiles/microsd.dir/microsd.cpp.obj" \
 "CMakeFiles/microsd.dir/my_debug.c.obj" \
 "CMakeFiles/microsd.dir/rtc.c.obj" \
 "CMakeFiles/microsd.dir/sd_card.c.obj" \
@@ -909,7 +895,6 @@ lib/microsd/libmicrosd.a: lib/microsd/CMakeFiles/microsd.dir/ffsystem.c.obj
 lib/microsd/libmicrosd.a: lib/microsd/CMakeFiles/microsd.dir/ffunicode.c.obj
 lib/microsd/libmicrosd.a: lib/microsd/CMakeFiles/microsd.dir/glue.c.obj
 lib/microsd/libmicrosd.a: lib/microsd/CMakeFiles/microsd.dir/hw_config.c.obj
-lib/microsd/libmicrosd.a: lib/microsd/CMakeFiles/microsd.dir/microsd.cpp.obj
 lib/microsd/libmicrosd.a: lib/microsd/CMakeFiles/microsd.dir/my_debug.c.obj
 lib/microsd/libmicrosd.a: lib/microsd/CMakeFiles/microsd.dir/rtc.c.obj
 lib/microsd/libmicrosd.a: lib/microsd/CMakeFiles/microsd.dir/sd_card.c.obj
@@ -967,7 +952,7 @@ lib/microsd/libmicrosd.a: lib/microsd/CMakeFiles/microsd.dir/home/william.porras
 lib/microsd/libmicrosd.a: lib/microsd/CMakeFiles/microsd.dir/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
 lib/microsd/libmicrosd.a: lib/microsd/CMakeFiles/microsd.dir/build.make
 lib/microsd/libmicrosd.a: lib/microsd/CMakeFiles/microsd.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Linking CXX static library libmicrosd.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Linking CXX static library libmicrosd.a"
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && $(CMAKE_COMMAND) -P CMakeFiles/microsd.dir/cmake_clean_target.cmake
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/microsd.dir/link.txt --verbose=$(VERBOSE)
 

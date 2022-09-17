@@ -1547,33 +1547,6 @@ hw_config.c.s:
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build && $(MAKE) -f lib/microsd/CMakeFiles/microsd.dir/build.make lib/microsd/CMakeFiles/microsd.dir/hw_config.c.s
 .PHONY : hw_config.c.s
 
-microsd.obj: microsd.cpp.obj
-
-.PHONY : microsd.obj
-
-# target to build an object file
-microsd.cpp.obj:
-	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build && $(MAKE) -f lib/microsd/CMakeFiles/microsd.dir/build.make lib/microsd/CMakeFiles/microsd.dir/microsd.cpp.obj
-.PHONY : microsd.cpp.obj
-
-microsd.i: microsd.cpp.i
-
-.PHONY : microsd.i
-
-# target to preprocess a source file
-microsd.cpp.i:
-	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build && $(MAKE) -f lib/microsd/CMakeFiles/microsd.dir/build.make lib/microsd/CMakeFiles/microsd.dir/microsd.cpp.i
-.PHONY : microsd.cpp.i
-
-microsd.s: microsd.cpp.s
-
-.PHONY : microsd.s
-
-# target to generate assembly for a file
-microsd.cpp.s:
-	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build && $(MAKE) -f lib/microsd/CMakeFiles/microsd.dir/build.make lib/microsd/CMakeFiles/microsd.dir/microsd.cpp.s
-.PHONY : microsd.cpp.s
-
 my_debug.obj: my_debug.c.obj
 
 .PHONY : my_debug.obj
@@ -1876,9 +1849,6 @@ help:
 	@echo "... hw_config.obj"
 	@echo "... hw_config.i"
 	@echo "... hw_config.s"
-	@echo "... microsd.obj"
-	@echo "... microsd.i"
-	@echo "... microsd.s"
 	@echo "... my_debug.obj"
 	@echo "... my_debug.i"
 	@echo "... my_debug.s"

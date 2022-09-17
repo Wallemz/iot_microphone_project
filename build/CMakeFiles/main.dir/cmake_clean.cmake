@@ -74,6 +74,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
   "CMakeFiles/main.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
   "CMakeFiles/main.dir/main.cpp.obj"
+  "CMakeFiles/main.dir/src/microphone.cpp.obj"
+  "CMakeFiles/main.dir/src/microsd.cpp.obj"
   "main.elf"
   "main.pdb"
 )

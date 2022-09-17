@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microphone/cmake_install.cmake")
-  include("/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/microsd/cmake_install.cmake")
   include("/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/pico-sdk/cmake_install.cmake")
+  include("/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/lib/cmake_install.cmake")
+  include("/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/src/cmake_install.cmake")
 
 endif()
 

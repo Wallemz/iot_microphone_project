@@ -124,32 +124,6 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named microphone
-
-# Build rule for target.
-microphone: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 microphone
-.PHONY : microphone
-
-# fast build rule for target.
-microphone/fast:
-	$(MAKE) -f lib/microphone/CMakeFiles/microphone.dir/build.make lib/microphone/CMakeFiles/microphone.dir/build
-.PHONY : microphone/fast
-
-#=============================================================================
-# Target rules for targets named microsd
-
-# Build rule for target.
-microsd: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 microsd
-.PHONY : microsd
-
-# fast build rule for target.
-microsd/fast:
-	$(MAKE) -f lib/microsd/CMakeFiles/microsd.dir/build.make lib/microsd/CMakeFiles/microsd.dir/build
-.PHONY : microsd/fast
-
-#=============================================================================
 # Target rules for targets named bs2_default_padded_checksummed_asm
 
 # Build rule for target.
@@ -187,6 +161,45 @@ bs2_default: cmake_check_build_system
 bs2_default/fast:
 	$(MAKE) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build
 .PHONY : bs2_default/fast
+
+#=============================================================================
+# Target rules for targets named microphone
+
+# Build rule for target.
+microphone: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 microphone
+.PHONY : microphone
+
+# fast build rule for target.
+microphone/fast:
+	$(MAKE) -f lib/microphone/CMakeFiles/microphone.dir/build.make lib/microphone/CMakeFiles/microphone.dir/build
+.PHONY : microphone/fast
+
+#=============================================================================
+# Target rules for targets named microsd
+
+# Build rule for target.
+microsd: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 microsd
+.PHONY : microsd
+
+# fast build rule for target.
+microsd/fast:
+	$(MAKE) -f lib/microsd/CMakeFiles/microsd.dir/build.make lib/microsd/CMakeFiles/microsd.dir/build
+.PHONY : microsd/fast
+
+#=============================================================================
+# Target rules for targets named recorder_lib
+
+# Build rule for target.
+recorder_lib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 recorder_lib
+.PHONY : recorder_lib
+
+# fast build rule for target.
+recorder_lib/fast:
+	$(MAKE) -f src/CMakeFiles/recorder_lib.dir/build.make src/CMakeFiles/recorder_lib.dir/build
+.PHONY : recorder_lib/fast
 
 home/william.porras/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: home/william.porras/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 
@@ -2015,6 +2028,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/microphone.obj: src/microphone.cpp.obj
+
+.PHONY : src/microphone.obj
+
+# target to build an object file
+src/microphone.cpp.obj:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/microphone.cpp.obj
+.PHONY : src/microphone.cpp.obj
+
+src/microphone.i: src/microphone.cpp.i
+
+.PHONY : src/microphone.i
+
+# target to preprocess a source file
+src/microphone.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/microphone.cpp.i
+.PHONY : src/microphone.cpp.i
+
+src/microphone.s: src/microphone.cpp.s
+
+.PHONY : src/microphone.s
+
+# target to generate assembly for a file
+src/microphone.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/microphone.cpp.s
+.PHONY : src/microphone.cpp.s
+
+src/microsd.obj: src/microsd.cpp.obj
+
+.PHONY : src/microsd.obj
+
+# target to build an object file
+src/microsd.cpp.obj:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/microsd.cpp.obj
+.PHONY : src/microsd.cpp.obj
+
+src/microsd.i: src/microsd.cpp.i
+
+.PHONY : src/microsd.i
+
+# target to preprocess a source file
+src/microsd.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/microsd.cpp.i
+.PHONY : src/microsd.cpp.i
+
+src/microsd.s: src/microsd.cpp.s
+
+.PHONY : src/microsd.s
+
+# target to generate assembly for a file
+src/microsd.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/microsd.cpp.s
+.PHONY : src/microsd.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2024,11 +2091,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main"
-	@echo "... microphone"
-	@echo "... microsd"
 	@echo "... bs2_default_padded_checksummed_asm"
 	@echo "... bs2_default_bin"
 	@echo "... bs2_default"
+	@echo "... microphone"
+	@echo "... microsd"
+	@echo "... recorder_lib"
 	@echo "... home/william.porras/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
 	@echo "... home/william.porras/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... home/william.porras/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
@@ -2232,6 +2300,12 @@ help:
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/microphone.obj"
+	@echo "... src/microphone.i"
+	@echo "... src/microphone.s"
+	@echo "... src/microsd.obj"
+	@echo "... src/microsd.i"
+	@echo "... src/microsd.s"
 .PHONY : help
 
 

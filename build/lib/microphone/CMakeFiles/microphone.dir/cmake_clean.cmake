@@ -48,7 +48,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/microphone.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
   "CMakeFiles/microphone.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
   "CMakeFiles/microphone.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
-  "CMakeFiles/microphone.dir/microphone.cpp.obj"
   "libmicrophone.a"
   "libmicrophone.pdb"
 )

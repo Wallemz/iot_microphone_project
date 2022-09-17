@@ -18,8 +18,6 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
-  "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microphone/include"
-  "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/lib/microsd/include"
   "/home/william.porras/pico/pico-sdk/src/rp2_common/boot_stage2/asminclude"
   "/home/william.porras/pico/pico-sdk/src/rp2040/hardware_regs/include"
   "/home/william.porras/pico/pico-sdk/src/rp2_common/hardware_base/include"
