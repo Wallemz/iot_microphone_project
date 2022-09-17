@@ -11,14 +11,9 @@ void Microphone::init(){
     DEV_Module_Init();
 }
 
-std::array <uint8_t, 20000> Microphone::read(){
-    std::array <uint8_t, 20000> data; 
-    for(int i = 0; i < 20000; i++){ 
-        data[i] = adc_read()>>4;
-        //printf("%.2f\n", data[i] * adcConvert);
-        //sleep_ms(1);
-    }
-    return data;
+uint8_t Microphone::read(){
+    auto data = std::make_unique<uint8_t>(adc_read()>>8);
+    return *data;
 }
 
 void Microphone::readLoop(){

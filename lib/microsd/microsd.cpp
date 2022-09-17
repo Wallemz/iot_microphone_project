@@ -146,45 +146,45 @@ bool MicroSD::prepare2Write(){
     return true;
 }
 
-bool MicroSD::writeWav(std::array <uint8_t, 20000> data){
-    int dataSize = data.size();
-    for(int i = 0; i < dataSize; i++){
-        //printf("Data: %u\n", data[i]);
-        int16_t minInVal = 0;
-        int16_t maxInVal = 255;
-        int16_t minOutVal = -32767;
-        int16_t maxOutVal = 32767;
-        double factor = ((data[i] - double(minInVal))/(maxInVal-minInVal))*100;
-        int16_t sampleValue = minOutVal + (maxOutVal-minOutVal)*(factor/100);
-        //printf("Convert: %d\n", sampleValue);
-        //int16_t sampleValue = map(data, MIN_DATA_VALUE 0, MAX_DATA_VALUE 1023,C -32767,D 32767);
-        //int16_t sampleValue = (data[i] - 0)*(255-0)/(32767-(-32767)) + 0;
-        //int16_t sampleValue = data[i];
+bool MicroSD::writeWav(uint8_t data){
+    //todo Revisar escritura por sectores
+    //todo Uso de doblee nucleo para red/write
+    //todo revisar sincronización (mutex)
+    // //printf("Data: %u\n", data[i]);
+    // int16_t minInVal = 0;
+    // int16_t maxInVal = 255;
+    // int16_t minOutVal = -32767;
+    // int16_t maxOutVal = 32767;
+    // double factor = ((data - double(minInVal))/(maxInVal-minInVal))*100;
+    // int16_t sampleValue = minOutVal + (maxOutVal-minOutVal)*(factor/100);
+    // //printf("Convert: %d\n", sampleValue);
+    // //int16_t sampleValue = map(data, MIN_DATA_VALUE 0, MAX_DATA_VALUE 1023,C -32767,D 32767);
+    // //int16_t sampleValue = (data[i] - 0)*(255-0)/(32767-(-32767)) + 0;
+    // //int16_t sampleValue = data[i];
 
-        //todo Revisar valores de los chunks
-        subChunk2Size += numChannels * bitsPerSample/8;
-        //wavFile.seek(40);
-        fr = f_lseek(&fil, 40);
-        //wavFile.write((byte*)&subChunk2Size,4);
-        fr = f_write(&fil, &subChunk2Size, sizeof(subChunk2Size), &bw);
 
-        //wavFile.seek(4);
-        fr = f_lseek(&fil, 4);
-        chunkSize = 36 + subChunk2Size;
-        //wavFile.write((byte*)&chunkSize,4);
-        fr = f_write(&fil, &chunkSize, sizeof(chunkSize), &bw);
+    subChunk2Size += numChannels * bitsPerSample/8;
+    //wavFile.seek(40);
+    fr = f_lseek(&fil, 40);
+    //wavFile.write((byte*)&subChunk2Size,4);
+    fr = f_write(&fil, &subChunk2Size, sizeof(subChunk2Size), &bw);
 
-        //wavFile.seek(wavFile.size()-1);
-        fr = f_lseek(&fil, f_size(&fil));
-        //wavFile.write((byte*)&sampleValue,2);
-        //fr = f_write(&fil, &sampleValue, sizeof(sampleValue), &bw);
-        //todo revisar cantidad de bits a escribir
-        fr = f_write(&fil, (char *)&data[i], sizeof(char), &bw);
+    //wavFile.seek(4);
+    fr = f_lseek(&fil, 4);
+    chunkSize = 36 + subChunk2Size;
+    //wavFile.write((byte*)&chunkSize,4);
+    fr = f_write(&fil, &chunkSize, sizeof(chunkSize), &bw);
 
-        // CLose file
-        f_sync (&fil);
-        //todo Open y close en cada write
-    }
+    //wavFile.seek(wavFile.size()-1);
+    fr = f_lseek(&fil, f_size(&fil));
+    //wavFile.write((byte*)&sampleValue,2);
+    //fr = f_write(&fil, &sampleValue, sizeof(sampleValue), &bw);
+
+    fr = f_write(&fil, (char *)&data, sizeof(char), &bw);
+
+    // CLose file
+    f_sync (&fil);
+    //todo Open y close en cada write
     
     return true;
 }
@@ -257,5 +257,22 @@ bool MicroSD::write(std::string data){
     fr = f_close(&fil);
     sleep_ms(500);
 
+    return true;
+}
+
+bool MicroSD::printWav(){
+    printf("\nchunkID: ",chunkID);
+    printf("\nchunkSize: ",chunkSize);
+    printf("\nformat: ",format);
+    printf("\nsubChunk1ID: ",subChunk1ID);
+    printf("\nsubChunk1Size: ",subChunk1Size);
+    printf("\naudioFormat: ",audioFormat);
+    printf("\nnumChannels: ",numChannels);
+    printf("\nsampleRate: ",sampleRate);
+    printf("\nbitsPerSample: ",bitsPerSample);
+    printf("\nbyteRate: ",byteRate);
+    printf("\nblockAlign: ",blockAlign);
+    printf("\nsubChunk2ID: ",subChunk2ID);
+    printf("\nsubChunk2Size: ",subChunk2Size);
     return true;
 }

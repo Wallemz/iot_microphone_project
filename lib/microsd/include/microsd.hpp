@@ -23,7 +23,8 @@ public:
     uint32_t subChunk1Size = 16; //4
     uint16_t audioFormat = 1; //2
     uint16_t numChannels = 1; //2
-    uint32_t sampleRate = 44100; //4
+    //todo probar un samplerate más bajo (11025)(44100)
+    uint32_t sampleRate = 3000; //4
     uint16_t bitsPerSample = 8; //2
     //uint32_t byteRate = 44100 * 2; //4
     uint32_t byteRate = sampleRate * numChannels * bitsPerSample/8;
@@ -39,9 +40,10 @@ public:
     bool init();
     bool write(std::string data);
     bool createWav();
-    bool writeWav(std::array <uint8_t, 20000> data);
+    bool writeWav(uint8_t data);
     bool read();
     void unmount();
     bool prepare2Write();
     bool finishWrite();
+    bool printWav();
 };

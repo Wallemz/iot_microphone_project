@@ -3,6 +3,7 @@
 #include <string>
 #include <iostream>
 #include <array>
+#include <memory>
 
 std::string file = "Prueba.wav";
 std::string data = "Prueba rayando microSD";
@@ -20,13 +21,13 @@ int main() {
     std::cout << "SD initialized successfully!!";
     sd.createWav();
     std::cout << "WAV Created successfully!!";
-
-    std::array <uint8_t, 20000> data;
-    data = mic.read();
-
+    uint8_t data;
     sd.prepare2Write();
-    sd.writeWav(data);
-
+    for(unsigned long int i = 0; i<8000; i++){
+        data = mic.read();
+        sd.writeWav(data);
+    }
+    sd.printWav();
     std::cout << "Data recorded successfully!!";
     sd.finishWrite();
     //sd.read();
