@@ -51,6 +51,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/recorder_lib.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
   "CMakeFiles/recorder_lib.dir/microphone.cpp.obj"
   "CMakeFiles/recorder_lib.dir/microsd.cpp.obj"
+  "CMakeFiles/recorder_lib.dir/recorder.cpp.obj"
   "librecorder_lib.a"
   "librecorder_lib.pdb"
 )

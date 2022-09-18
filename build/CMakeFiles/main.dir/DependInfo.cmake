@@ -295,6 +295,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/main.cpp" "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles/main.dir/main.cpp.obj"
   "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/src/microphone.cpp" "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles/main.dir/src/microphone.cpp.obj"
   "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/src/microsd.cpp" "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles/main.dir/src/microsd.cpp.obj"
+  "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/src/recorder.cpp" "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/CMakeFiles/main.dir/src/recorder.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -2082,6 +2082,33 @@ src/microsd.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/microsd.cpp.s
 .PHONY : src/microsd.cpp.s
 
+src/recorder.obj: src/recorder.cpp.obj
+
+.PHONY : src/recorder.obj
+
+# target to build an object file
+src/recorder.cpp.obj:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/recorder.cpp.obj
+.PHONY : src/recorder.cpp.obj
+
+src/recorder.i: src/recorder.cpp.i
+
+.PHONY : src/recorder.i
+
+# target to preprocess a source file
+src/recorder.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/recorder.cpp.i
+.PHONY : src/recorder.cpp.i
+
+src/recorder.s: src/recorder.cpp.s
+
+.PHONY : src/recorder.s
+
+# target to generate assembly for a file
+src/recorder.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/recorder.cpp.s
+.PHONY : src/recorder.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2306,6 +2333,9 @@ help:
 	@echo "... src/microsd.obj"
 	@echo "... src/microsd.i"
 	@echo "... src/microsd.s"
+	@echo "... src/recorder.obj"
+	@echo "... src/recorder.i"
+	@echo "... src/recorder.s"
 .PHONY : help
 
 

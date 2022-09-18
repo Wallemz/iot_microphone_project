@@ -4,6 +4,7 @@ target_sources(recorder_lib
     PUBLIC
         ${CMAKE_SOURCE_DIR}/src/microphone.cpp
         ${CMAKE_SOURCE_DIR}/src/microsd.cpp
+        ${CMAKE_SOURCE_DIR}/src/recorder.cpp
 )
 
 target_include_directories(recorder_lib

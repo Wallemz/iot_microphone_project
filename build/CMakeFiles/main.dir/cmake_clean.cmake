@@ -76,6 +76,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/main.cpp.obj"
   "CMakeFiles/main.dir/src/microphone.cpp.obj"
   "CMakeFiles/main.dir/src/microsd.cpp.obj"
+  "CMakeFiles/main.dir/src/recorder.cpp.obj"
   "main.elf"
   "main.pdb"
 )

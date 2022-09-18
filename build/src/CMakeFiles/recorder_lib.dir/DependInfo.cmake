@@ -242,6 +242,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/src/CMakeFiles/recorder_lib.dir/home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
   "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/src/microphone.cpp" "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/src/CMakeFiles/recorder_lib.dir/microphone.cpp.obj"
   "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/src/microsd.cpp" "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/src/CMakeFiles/recorder_lib.dir/microsd.cpp.obj"
+  "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/src/recorder.cpp" "/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build/src/CMakeFiles/recorder_lib.dir/recorder.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

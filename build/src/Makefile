@@ -1331,6 +1331,33 @@ microsd.cpp.s:
 	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build && $(MAKE) -f src/CMakeFiles/recorder_lib.dir/build.make src/CMakeFiles/recorder_lib.dir/microsd.cpp.s
 .PHONY : microsd.cpp.s
 
+recorder.obj: recorder.cpp.obj
+
+.PHONY : recorder.obj
+
+# target to build an object file
+recorder.cpp.obj:
+	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build && $(MAKE) -f src/CMakeFiles/recorder_lib.dir/build.make src/CMakeFiles/recorder_lib.dir/recorder.cpp.obj
+.PHONY : recorder.cpp.obj
+
+recorder.i: recorder.cpp.i
+
+.PHONY : recorder.i
+
+# target to preprocess a source file
+recorder.cpp.i:
+	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build && $(MAKE) -f src/CMakeFiles/recorder_lib.dir/build.make src/CMakeFiles/recorder_lib.dir/recorder.cpp.i
+.PHONY : recorder.cpp.i
+
+recorder.s: recorder.cpp.s
+
+.PHONY : recorder.s
+
+# target to generate assembly for a file
+recorder.cpp.s:
+	cd /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/build && $(MAKE) -f src/CMakeFiles/recorder_lib.dir/build.make src/CMakeFiles/recorder_lib.dir/recorder.cpp.s
+.PHONY : recorder.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1474,6 +1501,9 @@ help:
 	@echo "... microsd.obj"
 	@echo "... microsd.i"
 	@echo "... microsd.s"
+	@echo "... recorder.obj"
+	@echo "... recorder.i"
+	@echo "... recorder.s"
 .PHONY : help
 
 

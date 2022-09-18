@@ -28,6 +28,22 @@ string
 array
 -
 
+../include/recorder.hpp
+stdio.h
+-
+string
+-
+wav.hpp
+../include/wav.hpp
+microphone.hpp
+../include/microphone.hpp
+microsd.hpp
+../include/microsd.hpp
+
+../include/wav.hpp
+stdio.h
+-
+
 ../lib/microphone/DEV_Config.h
 pico/stdlib.h
 ../lib/microphone/pico/stdlib.h
@@ -87,10 +103,8 @@ pico/types.h
 ../lib/microsd/pico/types.h
 
 /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/main.cpp
-microphone.hpp
-/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/microphone.hpp
-microsd.hpp
-/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/microsd.hpp
+recorder.hpp
+/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/recorder.hpp
 string
 -
 iostream
@@ -108,6 +122,14 @@ microphone.hpp
 microsd.hpp
 /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/src/microsd.hpp
 cstring
+-
+
+/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/src/recorder.cpp
+recorder.hpp
+/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/src/recorder.hpp
+cstring
+-
+stdio.h
 -
 
 /home/william.porras/pico/pico-sdk/src/boards/include/boards/pico.h
