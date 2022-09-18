@@ -114,22 +114,10 @@ array
 memory
 -
 
-/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/src/microphone.cpp
-microphone.hpp
-/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/src/microphone.hpp
-
 /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/src/microsd.cpp
 microsd.hpp
 /home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/src/microsd.hpp
 cstring
--
-
-/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/src/recorder.cpp
-recorder.hpp
-/home/william.porras/Documents/projects/iotcareer/project_1_microphone/microphone_project/src/recorder.hpp
-cstring
--
-stdio.h
 -
 
 /home/william.porras/pico/pico-sdk/src/boards/include/boards/pico.h
@@ -413,10 +401,6 @@ sys/cdefs.h
 -
 pico/types.h
 /home/william.porras/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/pico/types.h
-
-/home/william.porras/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
-cstdlib
--
 
 /home/william.porras/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
 pico.h

@@ -34,7 +34,7 @@ bool MicroSD::prepare2Write(){
     strcpy(file, filename.c_str());
 
     // Open file for writing
-    fr = f_open(&fil, file, FA_WRITE | FA_OPEN_EXISTING);
+    fr = f_open(&fil, file, FA_WRITE | FA_CREATE_NEW);
     if(fr != FR_OK){
         printf("ERROR: Could not open file (%d)\r\n", fr);
         return false;
@@ -42,8 +42,7 @@ bool MicroSD::prepare2Write(){
     return true;
 }
 
-template <typename T> 
-bool MicroSD::write(T data){
+bool MicroSD::write(uint16_t data){
     fr = f_write(&fil, &data, sizeof(data), &bw);
     if (sizeof(data) != bw || fr != FR_OK)
         printf("Error in writing !\n");
@@ -52,7 +51,16 @@ bool MicroSD::write(T data){
     return true;
 }
 
-bool MicroSD::writeChar(char* data){
+bool MicroSD::write(uint32_t data){
+    fr = f_write(&fil, &data, sizeof(data), &bw);
+    if (sizeof(data) != bw || fr != FR_OK)
+        printf("Error in writing !\n");
+        return false;
+    bw = 0;
+    return true;
+}
+
+bool MicroSD::write(char* data){
     fr = f_write(&fil, data, sizeof(data), &bw);
     if (sizeof(data) != bw || fr != FR_OK)
         printf("Error in writing !\n");
@@ -60,6 +68,47 @@ bool MicroSD::writeChar(char* data){
     bw = 0;
     return true;
 }
+
+bool MicroSD::read(){
+    // String to charr arr
+    int length = filename.length();
+    char file[length + 1];
+    strcpy(file, filename.c_str());
+
+    // OPen for reading
+    fr = f_open(&fil, file, FA_READ);
+    if(fr != FR_OK){
+        printf("ERROR: Could not openm file (%d)\r\n", fr);
+        return false;
+    }
+
+    // Print
+    printf("Reading from '%s':\r\n", file);
+    printf("---\r\n");
+    while(f_gets(buf,sizeof(buf), &fil)){
+        printf(buf);
+    }
+    printf("\r\n---\r\n");
+
+
+    // CLose file
+    fr = f_close(&fil);
+    sleep_ms(500);
+    return true;
+}
+
+bool MicroSD::finishWrite(){
+    // CLose file
+    fr = f_close(&fil);
+    sleep_ms(500);
+    return true;
+}
+
+void MicroSD::unmount(){
+    f_unmount("0:");
+    printf("INFO: SD Unmounted!");
+}
+
 
 // bool MicroSD::createWav(){
 //     // String to charr arr
@@ -207,48 +256,6 @@ bool MicroSD::writeChar(char* data){
     
 //     return true;
 // }
-
-bool MicroSD::read(){
-    // String to charr arr
-    int length = filename.length();
-    char file[length + 1];
-    strcpy(file, filename.c_str());
-
-    // OPen for reading
-    fr = f_open(&fil, file, FA_READ);
-    if(fr != FR_OK){
-        printf("ERROR: Could not openm file (%d)\r\n", fr);
-        return false;
-    }
-
-    // Print
-    printf("Reading from '%s':\r\n", file);
-    printf("---\r\n");
-    while(f_gets(buf,sizeof(buf), &fil)){
-        printf(buf);
-    }
-    printf("\r\n---\r\n");
-
-
-    // CLose file
-    fr = f_close(&fil);
-    sleep_ms(500);
-    return true;
-}
-
-bool MicroSD::finishWrite(){
-    // CLose file
-    fr = f_close(&fil);
-    sleep_ms(500);
-    return true;
-}
-
-void MicroSD::unmount(){
-    f_unmount("0:");
-    printf("INFO: SD Unmounted!");
-}
-
-
 
 // bool MicroSD::write(std::string data){
 //     // String to charr arr

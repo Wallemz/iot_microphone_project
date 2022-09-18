@@ -32,10 +32,10 @@ bool Recorder::createWav(){
     if(!microsd.prepare2Write())
         return false;
     microsd.setWritePosition(0);
-    microsd.writeChar(wavHeader.chunkID);
+    microsd.write(wavHeader.chunkID);
     microsd.write(wavHeader.chunkSize);
-    microsd.writeChar(wavHeader.format);
-    microsd.writeChar(wavHeader.subChunk1ID);
+    microsd.write(wavHeader.format);
+    microsd.write(wavHeader.subChunk1ID);
     microsd.write(wavHeader.subChunk1Size);
     microsd.write(wavHeader.audioFormat);
     microsd.write(wavHeader.numChannels);
@@ -43,7 +43,7 @@ bool Recorder::createWav(){
     microsd.write(wavHeader.byteRate);
     microsd.write(wavHeader.blockAlign);
     microsd.write(wavHeader.bitsPerSample);
-    microsd.writeChar(wavHeader.subChunk2ID);
+    microsd.write(wavHeader.subChunk2ID);
     microsd.write(wavHeader.subChunk2Size);
     microsd.finishWrite();
     return true;

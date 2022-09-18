@@ -5,37 +5,20 @@
 #include <memory>
 
 std::string file = "Prueba.wav";
-std::string data = "Prueba rayando microSD";
 
 int main() {
-    printf("Mic initialized successfully!!");
-    std::cout << "SD initialized successfully!!";
+    printf("¡RECORDER INIT!\r\n");
     Recorder recorder;
-    // int size = 200;
     stdio_init_all();
-    recorder.init();
-    recorder.startRecording(10);
-    recorder.stopRecording();
 
-    // Microphone mic;
-    // MicroSD sd(file);
+    if(!recorder.init())
+        printf("Error: Init Failed!\r\n");
 
-    // mic.init();
-    
-    // sd.createWav();
-    // std::cout << "WAV Created successfully!!";
-    // uint8_t data;
-    // sd.prepare2Write();
-    // for(unsigned long int i = 0; i<8000; i++){
-    //     data = mic.read();
-    //     sd.writeWav(data);
-    // }
-    // sd.printWav();
-    // std::cout << "Data recorded successfully!!";
-    // sd.finishWrite();
-    // //sd.read();
-    // sd.unmount();
-    // mic.readLoop();
+    if(!recorder.startRecording(10))
+        printf("Error: Start Recording Failed!\r\n");
+        
+    if(!recorder.stopRecording())
+        printf("Error: Stop Recording Failed!\r\n");
 
     return 0;
 }
