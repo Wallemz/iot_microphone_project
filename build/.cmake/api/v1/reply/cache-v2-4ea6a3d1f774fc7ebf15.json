@@ -1471,7 +1471,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " /home/william.porras/pico/pico-sdk/src/rp2_common/cmsis /home/william.porras/pico/pico-sdk/src/rp2040/hardware_regs"
+			"value" : " /home/william.porras/pico/pico-sdk/src/rp2_common/cmsis /home/william.porras/pico/pico-sdk/src/rp2040/hardware_regs /home/william.porras/pico/pico-sdk/src/rp2_common/cmsis /home/william.porras/pico/pico-sdk/src/rp2040/hardware_regs /home/william.porras/pico/pico-sdk/src/rp2_common/cmsis /home/william.porras/pico/pico-sdk/src/rp2040/hardware_regs"
 		},
 		{
 			"name" : "PICO_DOXYGEN_PATHS",

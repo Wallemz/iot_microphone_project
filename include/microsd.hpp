@@ -29,4 +29,8 @@ public:
     bool prepare2Write();
     bool finishWrite();
 
+    // Init -> contructor
+    // unmount -> destructor
+    // Leer RAII
+
 };
