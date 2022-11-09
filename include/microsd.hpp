@@ -20,6 +20,7 @@ public:
     bool init(std::string file);
     void setWritePosition(int position);
 
+    // Template en Header
     bool write(uint16_t data);
     bool write(uint32_t data);
     bool write(char* data);

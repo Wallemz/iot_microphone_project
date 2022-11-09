@@ -16,7 +16,7 @@ public:
     uint adc_raw;
 
     Microphone();
-    
+    //todo Usar DMA
     void init();
     uint8_t read();
     void readLoop();
