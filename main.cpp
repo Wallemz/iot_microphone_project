@@ -13,12 +13,15 @@ int main() {
 
     if(!recorder.init())
         printf("Error: Init Failed!\r\n");
+        return -1;
 
     if(!recorder.startRecording(10))
         printf("Error: Start Recording Failed!\r\n");
+        return -1;
         
     if(!recorder.stopRecording())
         printf("Error: Stop Recording Failed!\r\n");
+        return -1;
 
     return 0;
 }

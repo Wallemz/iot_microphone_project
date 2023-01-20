@@ -1,5 +1,7 @@
 #pragma once
 #include <stdio.h>
+#include "pico/stdlib.h"
+#include "pico/multicore.h"
 #include <string>
 #include "wav.hpp"
 #include "microphone.hpp"
